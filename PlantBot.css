@@ -1,0 +1,205 @@
+body {
+    background-color: #F5EDE0;
+}
+h1, h3, p, button {
+    font-family: 'Abril Fatface', cursive;
+}
+h1, button{
+    text-align: center;
+}
+h1{
+    color: #778264;
+}
+h3{
+    color: #DFA28F;
+    margin: 5px;
+}
+.text{
+    font-family: 'Pacifico', cursive;
+    color: #A8B391;
+    margin: 5px;
+}
+.button-container {
+     display: grid;
+     grid-template-columns: 1fr;
+     grid-template-rows: 50px 50px 50px;
+     margin-left: 20px;
+     margin-right: 20px;
+     margin-top: 5px;
+}
+.top {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 30px;
+}
+.sides {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.bottom {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 30px;
+}
+.water_button{
+    background-color: #A8B391;
+    color: #F5EDE0;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    width: 99%;
+    padding-top: 5px;
+    margin-bottom: 10px;
+    transition: background-color 0.5s, color 0.4s;
+
+}
+.down_button{
+    background-color: #A8B391;
+    color: #F5EDE0;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    width: 99%;
+    padding-top: 5px;
+    margin-bottom: 10px;
+    transition: background-color 0.5s, color 0.4s;
+    padding-bottom: 5px;
+}
+.water_button:hover{
+    background-color: #778264;
+}
+.down_button:hover{
+    background-color: #778264;
+}
+.top-button{
+    background-color: #F5EDE0;
+    color: #778264;
+    border-color: #A8B391;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    height: 50px;
+    transition: background-color 0.5s, color 0.4s; 
+}
+.top-button:hover{
+    background-color: #A8B391;
+    color: #F5EDE0;
+}
+.left-button:hover{
+    background-color: #A8B391;
+    color: #F5EDE0;
+}
+.right-button:hover{
+    background-color: #A8B391;
+    color: #F5EDE0;
+}
+.bottom-button:hover{
+    background-color: #A8B391;
+    color: #F5EDE0;
+}
+.left-button{
+    background-color: #F5EDE0;
+    color: #778264;
+    border-color: #A8B391;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    transition: background-color 0.5s, color 0.4s;
+}
+.right-button{
+    background-color: #F5EDE0;
+    color: #778264;
+    border-color: #A8B391;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    transition: background-color 0.5s, color 0.4s;
+}
+.bottom-button{
+    background-color: #F5EDE0;
+    color: #778264;
+    border-color: #A8B391;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    height: 50px;
+    transition: background-color 0.5s, color 0.4s;
+}
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+  }
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+.blob-test{
+    display: grid;
+    grid-row: 1fr;
+}
+.blob{
+    margin-top: 30px; 
+    border: none;
+    background-color: #b8c2a4 ;
+    color: #778264;
+    width: 249px;
+    height: 200px;
+    border-radius: 38% 62% 38% 62% / 53% 41% 59% 47% ;
+    transition: border-radius 500ms ease-in-out;
+    position: absolute;
+}
+.blob:hover{
+    border-radius: 54% 46% 53% 47% / 44% 29% 71% 56% ;
+}
+.pharagraph{
+    color: #778264;
+    font-family: 'Pacifico', cursive;
+    position: absolute;
+    margin: 20px;
+    margin-top: 55px;
+    width: 210px;
+    font-size: 12px;
+}
+.size{
+    display: grid;
+    grid-template-columns: 1fr;
+    
+}
+.buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
